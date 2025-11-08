@@ -1,4 +1,4 @@
-# 🎓 EduBot — AI Study Assistant (Final Project UNESA 2025)
+# 🎓 EduBot — AI Study Assistant
 
 Proyek final ini merupakan implementasi chatbot **berbasis AI dan Streamlit** yang berfungsi sebagai asisten belajar interaktif bagi mahasiswa.  
 Chatbot ini menggunakan **model Google Gemini (melalui library `google-genai`)** untuk memahami bahasa alami, menjawab pertanyaan, meringkas teks, dan membuat soal otomatis.
@@ -41,25 +41,29 @@ Chatbot ini menggunakan **model Google Gemini (melalui library `google-genai`)**
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-1. **Clone atau unduh repositori**
+1. **Clone repositori dari GitHub**
+   
    ```bash
    git clone https://github.com/<username>/AI_Study_Assistant.git
    cd AI_Study_Assistant
+   
+2. **Install semua dependensi**
+   ```bash
+   pip install -r requirements.txt
 
-Install semua dependensi
+3. **Jalankan aplikasi Streamlit**
+   ```bash
+   streamlit run streamlit_chat_app.py
 
-bash
-pip install -r requirements.txt
+4. Masukkan Google AI API Key di sidebar kiri, lalu pilih mode:
+   -💬 Chat
+   -📘 Ringkasan
+   -🧩 Generate Quiz
 
-Jalankan aplikasi
-
-bash
-streamlit run streamlit_chat_app.py
-
-Masukkan Google AI API Key di sidebar kiri, lalu pilih mode:
--💬 Chat
--📘 Ringkasan
--🧩 Generate Quiz
+5. Masukkan Google AI API Key di sidebar kiri, lalu pilih mode:
+   -💬 Chat
+   -📘 Ringkasan
+   -🧩 Generate Quiz
 
 🧠 Catatan Teknis
 Database lokal (study_assistant.db) akan otomatis dibuat saat pertama dijalankan.
@@ -75,6 +79,7 @@ Gaya bahasa chatbot dibuat santai namun edukatif, disesuaikan dengan mahasiswa S
 | ![Screenshot UI](screenshot_1.png) | ![Screenshot Chat](screenshot_2.png) |
 
 
+
 👨‍💻 Pengembang
 Nama: Nailuddin Ghazy Al Ghifari
 Universitas: Universitas Negeri Surabaya (UNESA)
@@ -84,4 +89,5 @@ Tahun: 2025
 ✅ Fungsional penuh
 ✅ Integrasi AI berhasil
 ✅ Database lokal aktif
+
 ✅ Siap diunggah ke GitHub & dikumpulkan sebagai Final Projec
